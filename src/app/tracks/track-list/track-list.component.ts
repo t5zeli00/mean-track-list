@@ -45,8 +45,12 @@ export class TrackListComponent implements OnInit {
 
   createNewTrack() {
     var track: Track = {
+      item_name: '',
+      parcel_type: '',
       name: '',
+      address: '',
       email: '',
+      status: '',
       phone: {
         work: '',
         mobile: ''

@@ -5,9 +5,9 @@ export class Track {
   name: string;
   address: string;
   email: string;
+  status: string;
   phone: {
     mobile: string;
     work: string;
   }
-  status: string;
 }
