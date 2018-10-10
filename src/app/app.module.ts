@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import { MatSelectModule } from '@angular/material';
+import { MatCheckboxModule } from '@angular/material';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
@@ -20,7 +20,7 @@ import { TrackListComponent } from './tracks/track-list/track-list.component';
     FormsModule,
     HttpModule,
     ReactiveFormsModule,
-    MatSelectModule,
+    MatCheckboxModule,
     BrowserAnimationsModule
   ],
   providers: [],
