@@ -38,7 +38,7 @@
         <!-- <label for="track-status">Status</label>
         <input class="form-control" name="track-status" [(ngModel)]="track.status" placeholder="Proceed"/> -->
         <div class="checkbox">
-          <label>
+        <!--  <label>
               <input type="checkbox" class="form-control" name="track-status-proceed" [(ngModel)]="track.status.proceed"> Proceed
           </label>
           <label>
@@ -52,7 +52,7 @@
         </label>
         <label>
           <input type="checkbox" class="form-control" name="track-status-not_delivered" [(ngModel)]="track.status.not_delivered"> Not delivered
-      </label>
+      </label> -->
       </div>
       </div>
     <button class="btn btn-primary" *ngIf="!track._id" (click)="createTrack(track)">Create</button>
