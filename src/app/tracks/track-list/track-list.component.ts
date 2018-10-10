@@ -50,16 +50,16 @@ export class TrackListComponent implements OnInit {
       name: '',
       address: '',
       email: '',
+      phone: {
+        work: '',
+        mobile: ''
+      },
       status: {
         'proceed': false,
         'shipped': false,
         'lost': false,
         'delivered': false,
         'not_delivered': false
-      }
-      phone: {
-        work: '',
-        mobile: ''
       }
     };
 
