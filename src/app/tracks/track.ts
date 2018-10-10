@@ -5,7 +5,13 @@ export class Track {
   name: string;
   address: string;
   email: string;
-  status: string;
+  status: {
+    'proceed': false,
+    'shipped': false,
+    'lost': false,
+    'delivered': false,
+    'not_delivered': false
+  }
   phone: {
     mobile: string;
     work: string;
