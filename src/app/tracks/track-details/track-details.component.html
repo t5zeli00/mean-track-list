@@ -34,7 +34,7 @@
       <label for="track-phone-work">Work</label>
       <input class="form-control" name="track-phone-work" [(ngModel)]="track.phone.work" placeholder="0123456789"/>
     </div>
-    <div class="form-group">
+ <!--   <div class="form-group"> -->
         <!-- <label for="track-status">Status</label>
         <input class="form-control" name="track-status" [(ngModel)]="track.status" placeholder="Proceed"/> -->
         <div class="checkbox">
@@ -54,7 +54,7 @@
           <input type="checkbox" class="form-control" name="track-status-not_delivered" [(ngModel)]="track.status.not_delivered"> Not delivered
       </label> -->
       </div>
-      </div>
+   <!--   </div> -->
     <button class="btn btn-primary" *ngIf="!track._id" (click)="createTrack(track)">Create</button>
     <button class="btn btn-info" *ngIf="track._id" (click)="updateTrack(track)">Update</button>
     <button class="btn btn-danger" *ngIf="track._id" (click)="deleteTrack(track._id)">Delete</button>
