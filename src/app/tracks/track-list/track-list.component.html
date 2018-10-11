@@ -6,7 +6,7 @@
         *ngFor="let track of tracks"
         (click)="selectTrack(track)"
         [class.active]="track === selectedTrack">
-        {{track.item_id}}
+        {{track.item_name}}
       </li>
     </ul>
     <button class="btn btn-warning" (click)="createNewTrack()">New</button>
