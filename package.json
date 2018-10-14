@@ -13,12 +13,8 @@
   },
   "private": true,
   "dependencies": {
-<<<<<<< HEAD
     "@angular/animations": "^6.1.9",
     "@angular/cdk": "^6.4.7",
-=======
-    "@angular/animations": "^6.0.3",
->>>>>>> 90e2d0beb865a61f222af7fab414445eb370e72f
     "@angular/cli": "^6.0.8",
     "@angular/common": "^6.0.3",
     "@angular/compiler": "^6.0.3",
@@ -26,22 +22,14 @@
     "@angular/core": "^6.0.3",
     "@angular/forms": "^6.0.3",
     "@angular/http": "^6.0.3",
-<<<<<<< HEAD
     "@angular/material": "^6.4.7",
-=======
->>>>>>> 90e2d0beb865a61f222af7fab414445eb370e72f
     "@angular/platform-browser": "^6.0.3",
     "@angular/platform-browser-dynamic": "^6.0.3",
     "@angular/router": "^6.0.3",
     "body-parser": "^1.18.3",
     "core-js": "^2.5.4",
-<<<<<<< HEAD
     "express": "^4.16.4",
     "mongodb": "^3.1.8",
-=======
-    "express": "^4.16.3",
-    "mongodb": "^3.1.1",
->>>>>>> 90e2d0beb865a61f222af7fab414445eb370e72f
     "rxjs": "^6.0.0",
     "zone.js": "^0.8.26"
   },

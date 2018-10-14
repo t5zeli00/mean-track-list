@@ -22,6 +22,10 @@
         <label for="track-address">Address</label>
         <input class="form-control" name="track-address" [(ngModel)]="track.address" placeholder="Kotkantie 1"/>
       </div>
+      <div class="form-group">
+        <label for="track-postcode">Postcode</label>
+        <input class="form-control" name="track-postcode" [(ngModel)]="track.postcode" placeholder="90100"/>
+      </div>
     <div class="form-group">
       <label for="track-email">Email</label>
       <input class="form-control" name="track-email" [(ngModel)]="track.email" placeholder="support@mlab.com"/>
@@ -35,25 +39,19 @@
       <input class="form-control" name="track-phone-work" [(ngModel)]="track.phone.work" placeholder="0123456789"/>
     </div>
     <div class="form-group">
-<<<<<<< HEAD
         <!-- <label for="track-status">Status</label>
         <input class="form-control" name="track-status" [(ngModel)]="track.status" placeholder="Proceed"/> -->
         <div class="checkbox">
           <!-- <label>
             <input type="checkbox" name="track-status-proceed" [(ngModel)]="track.status.proceed"> Proceed <br>
           </label> -->
-          <mat-checkbox name="track-status-proceed" [(ngModel)]="track.status.proceed">Proceed</mat-checkbox>
-          <mat-checkbox name="track-status-shipped" [(ngModel)]="track.status.shipped">Shipped</mat-checkbox>
-          <mat-checkbox name="track-status-lost" [(ngModel)]="track.status.lost">Lost</mat-checkbox>
-          <mat-checkbox name="track-status-delivered" [(ngModel)]="track.status.delivered">Delievered</mat-checkbox>
+          <mat-checkbox name="track-status-proceed" [(ngModel)]="track.status.proceed">Proceed</mat-checkbox><br>
+          <mat-checkbox name="track-status-shipped" [(ngModel)]="track.status.shipped">Shipped</mat-checkbox><br>
+          <mat-checkbox name="track-status-lost" [(ngModel)]="track.status.lost">Lost</mat-checkbox><br>
+          <mat-checkbox name="track-status-delivered" [(ngModel)]="track.status.delivered">Delievered</mat-checkbox><br>
           <mat-checkbox name="track-status-not_delivered" [(ngModel)]="track.status.not_delivered">Not delivered</mat-checkbox>
         </div>
     </div>
-=======
-        <label for="track-status">Status</label>
-        <input class="form-control" name="track-status" [(ngModel)]="track.status" placeholder="Proceed"/>
-      </div>
->>>>>>> 90e2d0beb865a61f222af7fab414445eb370e72f
     <button class="btn btn-primary" *ngIf="!track._id" (click)="createTrack(track)">Create</button>
     <button class="btn btn-info" *ngIf="track._id" (click)="updateTrack(track)">Update</button>
     <button class="btn btn-danger" *ngIf="track._id" (click)="deleteTrack(track._id)">Delete</button>

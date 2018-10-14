@@ -49,8 +49,8 @@ export class TrackListComponent implements OnInit {
       parcel_type: '',
       name: '',
       address: '',
+      postcode: '',
       email: '',
-<<<<<<< HEAD
       phone: {
         work: '',
         mobile: ''
@@ -61,12 +61,6 @@ export class TrackListComponent implements OnInit {
         'lost': false,
         'delivered': false,
         'not_delivered': false
-=======
-      status: '',
-      phone: {
-        work: '',
-        mobile: ''
->>>>>>> 90e2d0beb865a61f222af7fab414445eb370e72f
       }
     };
 

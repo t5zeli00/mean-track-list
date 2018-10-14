@@ -6,11 +6,7 @@
         *ngFor="let track of tracks"
         (click)="selectTrack(track)"
         [class.active]="track === selectedTrack">
-<<<<<<< HEAD
         {{track._id}}
-=======
-        {{track.item_name}}
->>>>>>> 90e2d0beb865a61f222af7fab414445eb370e72f
       </li>
     </ul>
     <button class="btn btn-warning" (click)="createNewTrack()">New</button>
